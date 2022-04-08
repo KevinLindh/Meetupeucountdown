@@ -1,8 +1,6 @@
-let countDownDate = new Date("Apr 8, 2022 21:00:00").getTime();
+let countDownDate = new Date("Apr 11, 2022 18:00:00 GMT").getTime();
 
 let updater = setInterval(function(){
-
-}, 1000)
 
 let currentTime = new Date().getTime();
 let timeLeft = countDownDate -currentTime;
@@ -17,7 +15,7 @@ document.querySelector("#hours").innerHTML = hours + "h"
 document.querySelector("#mins").innerHTML = minutes + "m"
 document.querySelector("#secs").innerHTML = seconds + "s"
 
-if (timeLeft < -7200){
+if (timeLeft < -7200000){
     clearInterval(updater);
     document.querySelector("#days").innerHTML = ""
     document.querySelector("#hours").innerHTML = "" 
@@ -32,3 +30,11 @@ if (timeLeft < -7200){
     document.querySelector("#secs").innerHTML = ""
     document.querySelector("#end").innerHTML = "Meeting Time";
 }
+
+
+//Next meeting date
+
+
+//Meeting date after that
+
+}, 1000)
