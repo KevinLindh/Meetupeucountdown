@@ -1,2 +1,2 @@
-# Meetupeucountdown
-A countdown timer to keep track of upcoming meetings
+Meetup countdown timer for 100devs EU
+https://kevinlindh.github.io/Meetupeucountdown/
