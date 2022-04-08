@@ -1,1 +1,1 @@
-#Meetup countdown timer for 100devs EU
+Meetup countdown timer for 100devs EU
