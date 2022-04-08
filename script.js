@@ -30,11 +30,10 @@ if (timeLeft < -7200000){
     document.querySelector("#secs").innerHTML = ""
     document.querySelector("#end").innerHTML = "Meeting Time";
 }
-
+}, 1000)
 
 //Next meeting date
 
 
 //Meeting date after that
 
-}, 1000)
